@@ -1,8 +1,33 @@
 aid: the-helper-bees
 name: The Helper Bees
-description: The Helper Bees is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Helper Bees is an Austin-based aging-in-place technology company that
+  operates one connected platform linking benefits, in-home service providers,
+  and support so older adults can safely age at home. Its products include Care
+  Concierge human guidance, an Aging-in-Place Marketplace for OTC products and
+  nonmedical services (home care, safety modifications, meals, transportation),
+  the Helpful benefits card, digital invoicing and claims processing for home
+  and facility care, and digital nurse eligibility assessments for long-term
+  care insurance. The company runs one of the nation's largest networks of
+  vetted in-home care agencies and sells to Long-Term Care Insurance, Medicare
+  Advantage, and Medicaid plan administrators. It was surfaced as a Techstars
+  portfolio company and added to the API Evangelist network. The Helper Bees
+  publishes member and provider applications (the api.thehelperbees.com app
+  host, the myhomealign.com provider portal, and mobile apps) but does not
+  currently expose a public developer program, OpenAPI specification, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/the-helper-bees/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/695bc5850879d1a05335b7ae/695bd9297c431b1cd856012e_brand%20logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +36,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Aging in Place
+- Home Care
+- Long-Term Care Insurance
+- Medicare Advantage
+- Medicaid
+- Benefits
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://thehelperbees.com/
+  url: https://www.thehelperbees.com/
+- type: Support
+  url: https://www.thehelperbees.com/help
+- type: PrivacyPolicy
+  url: https://www.thehelperbees.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.thehelperbees.com/legal/terms
+- type: SignUp
+  url: https://www.thehelperbees.com/book-a-demo
+- type: Login
+  url: https://www.thehelperbees.com/member-sign-in
+- type: DomainSecurity
+  url: security/the-helper-bees-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
